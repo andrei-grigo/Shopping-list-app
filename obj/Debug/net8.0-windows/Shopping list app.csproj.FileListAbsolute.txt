@@ -1,0 +1,19 @@
+C:\Users\andre\Documents\cursuri C#\Shopping list app\obj\Debug\net8.0-windows\Shopping_list_app.Properties.Resources.resources
+C:\Users\andre\Documents\cursuri C#\Shopping list app\obj\Debug\net8.0-windows\Shopping_list_app.SearchForm.resources
+C:\Users\andre\Documents\cursuri C#\Shopping list app\obj\Debug\net8.0-windows\Shopping_list_app.ShoppingListForm.resources
+C:\Users\andre\Documents\cursuri C#\Shopping list app\obj\Debug\net8.0-windows\Shopping list app.csproj.GenerateResource.cache
+C:\Users\andre\Documents\cursuri C#\Shopping list app\obj\Debug\net8.0-windows\Shopping list app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Documents\cursuri C#\Shopping list app\obj\Debug\net8.0-windows\Shopping list app.AssemblyInfoInputs.cache
+C:\Users\andre\Documents\cursuri C#\Shopping list app\obj\Debug\net8.0-windows\Shopping list app.AssemblyInfo.cs
+C:\Users\andre\Documents\cursuri C#\Shopping list app\obj\Debug\net8.0-windows\Shopping list app.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\cursuri C#\Shopping list app\bin\Debug\net8.0-windows\Shopping list app.exe
+C:\Users\andre\Documents\cursuri C#\Shopping list app\bin\Debug\net8.0-windows\Shopping list app.deps.json
+C:\Users\andre\Documents\cursuri C#\Shopping list app\bin\Debug\net8.0-windows\Shopping list app.runtimeconfig.json
+C:\Users\andre\Documents\cursuri C#\Shopping list app\bin\Debug\net8.0-windows\Shopping list app.dll
+C:\Users\andre\Documents\cursuri C#\Shopping list app\bin\Debug\net8.0-windows\Shopping list app.pdb
+C:\Users\andre\Documents\cursuri C#\Shopping list app\obj\Debug\net8.0-windows\Shopping list app.dll
+C:\Users\andre\Documents\cursuri C#\Shopping list app\obj\Debug\net8.0-windows\refint\Shopping list app.dll
+C:\Users\andre\Documents\cursuri C#\Shopping list app\obj\Debug\net8.0-windows\Shopping list app.pdb
+C:\Users\andre\Documents\cursuri C#\Shopping list app\obj\Debug\net8.0-windows\Shopping list app.genruntimeconfig.cache
+C:\Users\andre\Documents\cursuri C#\Shopping list app\obj\Debug\net8.0-windows\ref\Shopping list app.dll
+C:\Users\andre\Documents\cursuri C#\Shopping list app\obj\Debug\net8.0-windows\Shopping_list_app.AddProductForm.resources
