@@ -9,11 +9,18 @@ namespace Shopping_list_app
         public int ProductQuantity { get; private set; }
 
         private ShoppingListForm ownerForm;
+        private bool isBought;
 
-        public AddProductForm(ShoppingListForm owner)
+        public AddProductForm(ShoppingListForm owner, bool isBought = false)
         {
+            if (owner == null)
+            {
+                throw new ArgumentNullException(nameof(owner), "Owner form cannot be null.");
+            }
+
             InitializeComponent();
             ownerForm = owner;
+            this.isBought = isBought;
 
             numQuantity.Leave += numQuantity_Leave;
             numQuantity.KeyDown += numQuantity_KeyDown;
@@ -62,7 +69,7 @@ namespace Shopping_list_app
             {
                 if (string.Equals(item.Name, newProductName, StringComparison.OrdinalIgnoreCase))
                 {
-                    MessageBox.Show($"Item '{newProductName}' is already in the To Buy list with quantity {item.Quantity}.",
+                    MessageBox.Show($"Item '{newProductName}' is already in the To Buy list with a quantity of {item.Quantity}.",
                         "Duplicate Item", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
@@ -72,15 +79,25 @@ namespace Shopping_list_app
             {
                 if (string.Equals(item.Name, newProductName, StringComparison.OrdinalIgnoreCase))
                 {
-                    MessageBox.Show($"Item '{newProductName}' is already in the Bought list with quantity {item.Quantity}.",
+                    MessageBox.Show($"Item '{newProductName}' is already in the Bought list with a quantity of {item.Quantity}.",
                         "Duplicate Item", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
             }
 
+            if (isBought)
+            {
+                ownerForm.shoppingListManager.BoughtList.Add(new ShoppingItem(newProductName, newProductQuantity));
+            }
+            else
+            {
+                ownerForm.shoppingListManager.ToBuyList.Add(new ShoppingItem(newProductName, newProductQuantity));
+            }
+
             ProductName = newProductName;
             ProductQuantity = newProductQuantity;
             this.DialogResult = DialogResult.OK;
+            this.Dispose();
             this.Close();
         }
     }

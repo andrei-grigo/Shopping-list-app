@@ -11,10 +11,9 @@ namespace Shopping_list_app
         public SearchForm()
         {
             InitializeComponent();
-            this.TopMost = true;
-            this.MinimizeBox = true;
             txtSearch.Focus();
         }
+
 
         public void SetOwner(ShoppingListForm form)
         {
@@ -181,14 +180,14 @@ namespace Shopping_list_app
             }
         }
 
-        private void FlashWindow()
+        private async void FlashWindow()
         {
             for (int i = 0; i < 3; i++)
             {
                 this.Opacity = 0.5;
-                Task.Delay(100).Wait();
+                await Task.Delay(100);
                 this.Opacity = 1;
-                Task.Delay(100).Wait();
+                await Task.Delay(100);
             }
         }
 

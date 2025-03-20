@@ -5,7 +5,7 @@ namespace Shopping_list_app
     partial class SearchForm
     {
         /// <summary>
-        /// Required designer variable.
+                // Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
@@ -158,6 +158,7 @@ namespace Shopping_list_app
             Controls.Add(txtSearch);
             Controls.Add(lblSearch);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
             Name = "SearchForm";
             StartPosition = FormStartPosition.CenterParent;
             Text = "Search";

@@ -5,7 +5,8 @@ namespace Shopping_list_app
     partial class ShoppingListForm
     {
         /// <summary>
-        ///  Required designer variable.
+
+        // Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
@@ -31,7 +32,10 @@ namespace Shopping_list_app
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ShoppingListForm));
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             ToBuy = new TabPage();
             dataGridViewBuy = new DataGridView();
             colSelect = new DataGridViewCheckBoxColumn();
@@ -39,7 +43,6 @@ namespace Shopping_list_app
             colName = new DataGridViewTextBoxColumn();
             colQuantity = new DataGridViewTextBoxColumn();
             colBuy = new DataGridViewButtonColumn();
-            colEdit = new DataGridViewButtonColumn();
             colDelete = new DataGridViewButtonColumn();
             groupBox1 = new GroupBox();
             tableLayoutPanel1 = new TableLayoutPanel();
@@ -55,25 +58,21 @@ namespace Shopping_list_app
             colNameBought = new DataGridViewTextBoxColumn();
             colQuantityBought = new DataGridViewTextBoxColumn();
             colBuyBought = new DataGridViewButtonColumn();
-            colEditBought = new DataGridViewButtonColumn();
             colDeleteBought = new DataGridViewButtonColumn();
             groupBox2 = new GroupBox();
             tableLayoutPanel3 = new TableLayoutPanel();
             searchBtnBought = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
+            moveBoughtBackBtn = new Button();
+            delBoughtBtn = new Button();
+            addBoughtBtn = new Button();
             imageList1 = new ImageList(components);
-            tableLayoutPanel2 = new TableLayoutPanel();
-            button4 = new Button();
-            button3 = new Button();
-            button2 = new Button();
             dataGridViewButtonColumn3 = new DataGridViewButtonColumn();
             dataGridViewButtonColumn2 = new DataGridViewButtonColumn();
             dataGridViewButtonColumn1 = new DataGridViewButtonColumn();
             dataGridViewTextBoxColumn2 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
             dataGridViewCheckBoxColumn1 = new DataGridViewCheckBoxColumn();
+            toolTip1 = new ToolTip(components);
             ToBuy.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridViewBuy).BeginInit();
             groupBox1.SuspendLayout();
@@ -103,8 +102,12 @@ namespace Shopping_list_app
             // dataGridViewBuy
             // 
             dataGridViewBuy.AllowUserToAddRows = false;
+            dataGridViewBuy.AllowUserToDeleteRows = false;
+            dataGridViewBuy.AllowUserToResizeRows = false;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.False;
+            dataGridViewBuy.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewBuy.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewBuy.Columns.AddRange(new DataGridViewColumn[] { colSelect, colIndex, colName, colQuantity, colBuy, colEdit, colDelete });
+            dataGridViewBuy.Columns.AddRange(new DataGridViewColumn[] { colSelect, colIndex, colName, colQuantity, colBuy, colDelete });
             dataGridViewBuy.Dock = DockStyle.Fill;
             dataGridViewBuy.Location = new Point(0, 0);
             dataGridViewBuy.Name = "dataGridViewBuy";
@@ -113,7 +116,6 @@ namespace Shopping_list_app
             dataGridViewBuy.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridViewBuy.Size = new Size(812, 729);
             dataGridViewBuy.TabIndex = 12;
-            dataGridViewBuy.CellContentClick += dataGridViewBuy_CellContentClick;
             // 
             // colSelect
             // 
@@ -131,16 +133,18 @@ namespace Shopping_list_app
             colIndex.HeaderText = "#";
             colIndex.MinimumWidth = 8;
             colIndex.Name = "colIndex";
+            colIndex.Resizable = DataGridViewTriState.False;
             colIndex.Width = 59;
             // 
             // colName
             // 
             colName.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             colName.DataPropertyName = "Name";
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
+            colName.DefaultCellStyle = dataGridViewCellStyle2;
             colName.HeaderText = "Name";
             colName.MinimumWidth = 8;
             colName.Name = "colName";
-            colName.ReadOnly = true;
             // 
             // colQuantity
             // 
@@ -149,7 +153,6 @@ namespace Shopping_list_app
             colQuantity.HeaderText = "Quantity";
             colQuantity.MinimumWidth = 8;
             colQuantity.Name = "colQuantity";
-            colQuantity.ReadOnly = true;
             colQuantity.Resizable = DataGridViewTriState.True;
             colQuantity.Width = 116;
             // 
@@ -160,16 +163,8 @@ namespace Shopping_list_app
             colBuy.MinimumWidth = 8;
             colBuy.Name = "colBuy";
             colBuy.Resizable = DataGridViewTriState.False;
+            colBuy.Text = "";
             colBuy.Width = 55;
-            // 
-            // colEdit
-            // 
-            colEdit.AutoSizeMode = DataGridViewAutoSizeColumnMode.ColumnHeader;
-            colEdit.HeaderText = "Edit";
-            colEdit.MinimumWidth = 8;
-            colEdit.Name = "colEdit";
-            colEdit.Resizable = DataGridViewTriState.False;
-            colEdit.Width = 48;
             // 
             // colDelete
             // 
@@ -229,6 +224,7 @@ namespace Shopping_list_app
             searchBtnBuy.Text = "Search";
             searchBtnBuy.TextAlign = ContentAlignment.MiddleRight;
             searchBtnBuy.TextImageRelation = TextImageRelation.ImageBeforeText;
+            toolTip1.SetToolTip(searchBtnBuy, "Search for products in the list");
             searchBtnBuy.UseVisualStyleBackColor = true;
             searchBtnBuy.Click += searchBtnBuy_Click;
             // 
@@ -247,6 +243,7 @@ namespace Shopping_list_app
             boughtBtn.Text = "Check as Bought";
             boughtBtn.TextAlign = ContentAlignment.MiddleRight;
             boughtBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
+            toolTip1.SetToolTip(boughtBtn, "Click to check selected items as bought");
             boughtBtn.UseVisualStyleBackColor = true;
             boughtBtn.Click += boughtBtn_Click;
             // 
@@ -265,6 +262,7 @@ namespace Shopping_list_app
             delItemBtn.Text = "Delete";
             delItemBtn.TextAlign = ContentAlignment.MiddleRight;
             delItemBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
+            toolTip1.SetToolTip(delItemBtn, "Click to delete selected items");
             delItemBtn.UseVisualStyleBackColor = true;
             delItemBtn.Click += delItemBtn_Click;
             // 
@@ -283,6 +281,7 @@ namespace Shopping_list_app
             addItemBtn.Text = "Add a Product";
             addItemBtn.TextAlign = ContentAlignment.MiddleRight;
             addItemBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
+            toolTip1.SetToolTip(addItemBtn, "Click to add a product to the 'To Buy' list");
             addItemBtn.UseVisualStyleBackColor = true;
             addItemBtn.Click += addItemBtn_Click;
             // 
@@ -297,7 +296,7 @@ namespace Shopping_list_app
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
             tabControl1.Size = new Size(820, 844);
-            tabControl1.SizeMode = TabSizeMode.Fixed;
+            tabControl1.SizeMode = TabSizeMode.FillToRight;
             tabControl1.TabIndex = 11;
             // 
             // Bought
@@ -316,8 +315,12 @@ namespace Shopping_list_app
             // dataGridViewBought
             // 
             dataGridViewBought.AllowUserToAddRows = false;
+            dataGridViewBought.AllowUserToDeleteRows = false;
+            dataGridViewBought.AllowUserToResizeRows = false;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            dataGridViewBought.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             dataGridViewBought.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewBought.Columns.AddRange(new DataGridViewColumn[] { colSelectBought, colIndexBought, colNameBought, colQuantityBought, colBuyBought, colEditBought, colDeleteBought });
+            dataGridViewBought.Columns.AddRange(new DataGridViewColumn[] { colSelectBought, colIndexBought, colNameBought, colQuantityBought, colBuyBought, colDeleteBought });
             dataGridViewBought.Dock = DockStyle.Fill;
             dataGridViewBought.Location = new Point(0, 0);
             dataGridViewBought.Name = "dataGridViewBought";
@@ -343,6 +346,7 @@ namespace Shopping_list_app
             colIndexBought.HeaderText = "#";
             colIndexBought.MinimumWidth = 8;
             colIndexBought.Name = "colIndexBought";
+            colIndexBought.Resizable = DataGridViewTriState.False;
             colIndexBought.Width = 59;
             // 
             // colNameBought
@@ -352,7 +356,6 @@ namespace Shopping_list_app
             colNameBought.HeaderText = "Name";
             colNameBought.MinimumWidth = 8;
             colNameBought.Name = "colNameBought";
-            colNameBought.ReadOnly = true;
             // 
             // colQuantityBought
             // 
@@ -361,27 +364,19 @@ namespace Shopping_list_app
             colQuantityBought.HeaderText = "Quantity";
             colQuantityBought.MinimumWidth = 8;
             colQuantityBought.Name = "colQuantityBought";
-            colQuantityBought.ReadOnly = true;
             colQuantityBought.Resizable = DataGridViewTriState.True;
             colQuantityBought.Width = 116;
             // 
             // colBuyBought
             // 
             colBuyBought.AutoSizeMode = DataGridViewAutoSizeColumnMode.ColumnHeader;
-            colBuyBought.HeaderText = "Buy?";
+            colBuyBought.HeaderText = "Return?";
             colBuyBought.MinimumWidth = 8;
             colBuyBought.Name = "colBuyBought";
             colBuyBought.Resizable = DataGridViewTriState.False;
-            colBuyBought.Width = 55;
-            // 
-            // colEditBought
-            // 
-            colEditBought.AutoSizeMode = DataGridViewAutoSizeColumnMode.ColumnHeader;
-            colEditBought.HeaderText = "Edit";
-            colEditBought.MinimumWidth = 8;
-            colEditBought.Name = "colEditBought";
-            colEditBought.Resizable = DataGridViewTriState.False;
-            colEditBought.Width = 48;
+            colBuyBought.Text = "↺";
+            colBuyBought.UseColumnTextForButtonValue = true;
+            colBuyBought.Width = 77;
             // 
             // colDeleteBought
             // 
@@ -403,7 +398,7 @@ namespace Shopping_list_app
             groupBox2.Size = new Size(812, 76);
             groupBox2.TabIndex = 13;
             groupBox2.TabStop = false;
-            groupBox2.Text = "To Buy List Controls";
+            groupBox2.Text = "Bought List Controls";
             // 
             // tableLayoutPanel3
             // 
@@ -415,9 +410,9 @@ namespace Shopping_list_app
             tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 202F));
             tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 196F));
             tableLayoutPanel3.Controls.Add(searchBtnBought, 3, 0);
-            tableLayoutPanel3.Controls.Add(button5, 2, 0);
-            tableLayoutPanel3.Controls.Add(button6, 1, 0);
-            tableLayoutPanel3.Controls.Add(button7, 0, 0);
+            tableLayoutPanel3.Controls.Add(moveBoughtBackBtn, 2, 0);
+            tableLayoutPanel3.Controls.Add(delBoughtBtn, 1, 0);
+            tableLayoutPanel3.Controls.Add(addBoughtBtn, 0, 0);
             tableLayoutPanel3.Location = new Point(8, 28);
             tableLayoutPanel3.Margin = new Padding(0);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -441,59 +436,66 @@ namespace Shopping_list_app
             searchBtnBought.Text = "Search";
             searchBtnBought.TextAlign = ContentAlignment.MiddleRight;
             searchBtnBought.TextImageRelation = TextImageRelation.ImageBeforeText;
+            toolTip1.SetToolTip(searchBtnBought, "Search for products in the list");
             searchBtnBought.UseVisualStyleBackColor = true;
             searchBtnBought.Click += searchBtnBought_Click;
             // 
-            // button5
+            // moveBoughtBackBtn
             // 
-            button5.Anchor = AnchorStyles.None;
-            button5.Image = (Image)resources.GetObject("button5.Image");
-            button5.Location = new Point(404, 0);
-            button5.Margin = new Padding(0);
-            button5.MaximumSize = new Size(190, 40);
-            button5.MinimumSize = new Size(190, 40);
-            button5.Name = "button5";
-            button5.Padding = new Padding(4, 0, 0, 0);
-            button5.Size = new Size(190, 40);
-            button5.TabIndex = 7;
-            button5.Text = "Check as Bought";
-            button5.TextAlign = ContentAlignment.MiddleRight;
-            button5.TextImageRelation = TextImageRelation.ImageBeforeText;
-            button5.UseVisualStyleBackColor = true;
+            moveBoughtBackBtn.Anchor = AnchorStyles.None;
+            moveBoughtBackBtn.Font = new Font("Segoe UI", 8.5F);
+            moveBoughtBackBtn.Image = (Image)resources.GetObject("moveBoughtBackBtn.Image");
+            moveBoughtBackBtn.Location = new Point(404, 0);
+            moveBoughtBackBtn.Margin = new Padding(0);
+            moveBoughtBackBtn.MaximumSize = new Size(190, 40);
+            moveBoughtBackBtn.MinimumSize = new Size(190, 40);
+            moveBoughtBackBtn.Name = "moveBoughtBackBtn";
+            moveBoughtBackBtn.Size = new Size(190, 40);
+            moveBoughtBackBtn.TabIndex = 7;
+            moveBoughtBackBtn.Text = "Send Back to Buy";
+            moveBoughtBackBtn.TextAlign = ContentAlignment.MiddleRight;
+            moveBoughtBackBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
+            toolTip1.SetToolTip(moveBoughtBackBtn, "Move a purchased item from the 'Bought' list back to the 'To Buy' list");
+            moveBoughtBackBtn.UseVisualStyleBackColor = true;
+            moveBoughtBackBtn.Click += moveBoughtBackBtn_Click;
             // 
-            // button6
+            // delBoughtBtn
             // 
-            button6.Anchor = AnchorStyles.None;
-            button6.Image = (Image)resources.GetObject("button6.Image");
-            button6.Location = new Point(202, 0);
-            button6.Margin = new Padding(0);
-            button6.MaximumSize = new Size(190, 40);
-            button6.MinimumSize = new Size(190, 40);
-            button6.Name = "button6";
-            button6.Padding = new Padding(4, 0, 0, 0);
-            button6.Size = new Size(190, 40);
-            button6.TabIndex = 6;
-            button6.Text = "Delete";
-            button6.TextAlign = ContentAlignment.MiddleRight;
-            button6.TextImageRelation = TextImageRelation.ImageBeforeText;
-            button6.UseVisualStyleBackColor = true;
+            delBoughtBtn.Anchor = AnchorStyles.None;
+            delBoughtBtn.Image = (Image)resources.GetObject("delBoughtBtn.Image");
+            delBoughtBtn.Location = new Point(202, 0);
+            delBoughtBtn.Margin = new Padding(0);
+            delBoughtBtn.MaximumSize = new Size(190, 40);
+            delBoughtBtn.MinimumSize = new Size(190, 40);
+            delBoughtBtn.Name = "delBoughtBtn";
+            delBoughtBtn.Padding = new Padding(4, 0, 0, 0);
+            delBoughtBtn.Size = new Size(190, 40);
+            delBoughtBtn.TabIndex = 6;
+            delBoughtBtn.Text = "Delete";
+            delBoughtBtn.TextAlign = ContentAlignment.MiddleRight;
+            delBoughtBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
+            toolTip1.SetToolTip(delBoughtBtn, "Click to delete selected items");
+            delBoughtBtn.UseVisualStyleBackColor = true;
+            delBoughtBtn.Click += delBoughtBtn_Click;
             // 
-            // button7
+            // addBoughtBtn
             // 
-            button7.Anchor = AnchorStyles.Left;
-            button7.Image = (Image)resources.GetObject("button7.Image");
-            button7.Location = new Point(0, 0);
-            button7.Margin = new Padding(0);
-            button7.MaximumSize = new Size(190, 40);
-            button7.MinimumSize = new Size(190, 40);
-            button7.Name = "button7";
-            button7.Padding = new Padding(4, 0, 0, 0);
-            button7.Size = new Size(190, 40);
-            button7.TabIndex = 2;
-            button7.Text = "Add a Product";
-            button7.TextAlign = ContentAlignment.MiddleRight;
-            button7.TextImageRelation = TextImageRelation.ImageBeforeText;
-            button7.UseVisualStyleBackColor = true;
+            addBoughtBtn.Anchor = AnchorStyles.Left;
+            addBoughtBtn.Image = (Image)resources.GetObject("addBoughtBtn.Image");
+            addBoughtBtn.Location = new Point(0, 0);
+            addBoughtBtn.Margin = new Padding(0);
+            addBoughtBtn.MaximumSize = new Size(190, 40);
+            addBoughtBtn.MinimumSize = new Size(190, 40);
+            addBoughtBtn.Name = "addBoughtBtn";
+            addBoughtBtn.Padding = new Padding(4, 0, 0, 0);
+            addBoughtBtn.Size = new Size(190, 40);
+            addBoughtBtn.TabIndex = 2;
+            addBoughtBtn.Text = "Add a Product";
+            addBoughtBtn.TextAlign = ContentAlignment.MiddleRight;
+            addBoughtBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
+            toolTip1.SetToolTip(addBoughtBtn, "Click to add an already purchased item directly to the 'Bought' list");
+            addBoughtBtn.UseVisualStyleBackColor = true;
+            addBoughtBtn.Click += addBoughtBtn_Click;
             // 
             // imageList1
             // 
@@ -502,74 +504,6 @@ namespace Shopping_list_app
             imageList1.TransparentColor = Color.Transparent;
             imageList1.Images.SetKeyName(0, "cart.png");
             imageList1.Images.SetKeyName(1, "check.png");
-            // 
-            // tableLayoutPanel2
-            // 
-            tableLayoutPanel2.Anchor = AnchorStyles.Top;
-            tableLayoutPanel2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            tableLayoutPanel2.ColumnCount = 4;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 196F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 202F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 202F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 196F));
-            tableLayoutPanel2.Location = new Point(8, 28);
-            tableLayoutPanel2.Margin = new Padding(0);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
-            tableLayoutPanel2.RowCount = 1;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 16F));
-            tableLayoutPanel2.Size = new Size(796, 40);
-            tableLayoutPanel2.TabIndex = 11;
-            // 
-            // button4
-            // 
-            button4.Anchor = AnchorStyles.Left;
-            button4.Image = (Image)resources.GetObject("button4.Image");
-            button4.Location = new Point(0, 0);
-            button4.Margin = new Padding(0);
-            button4.MaximumSize = new Size(190, 40);
-            button4.MinimumSize = new Size(190, 40);
-            button4.Name = "button4";
-            button4.Padding = new Padding(4, 0, 0, 0);
-            button4.Size = new Size(190, 40);
-            button4.TabIndex = 2;
-            button4.Text = "Add a Product";
-            button4.TextAlign = ContentAlignment.MiddleRight;
-            button4.TextImageRelation = TextImageRelation.ImageBeforeText;
-            button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Anchor = AnchorStyles.None;
-            button3.Image = (Image)resources.GetObject("button3.Image");
-            button3.Location = new Point(202, 0);
-            button3.Margin = new Padding(0);
-            button3.MaximumSize = new Size(190, 40);
-            button3.MinimumSize = new Size(190, 40);
-            button3.Name = "button3";
-            button3.Padding = new Padding(4, 0, 0, 0);
-            button3.Size = new Size(190, 40);
-            button3.TabIndex = 6;
-            button3.Text = "Delete";
-            button3.TextAlign = ContentAlignment.MiddleRight;
-            button3.TextImageRelation = TextImageRelation.ImageBeforeText;
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Anchor = AnchorStyles.None;
-            button2.Image = (Image)resources.GetObject("button2.Image");
-            button2.Location = new Point(404, 0);
-            button2.Margin = new Padding(0);
-            button2.MaximumSize = new Size(190, 40);
-            button2.MinimumSize = new Size(190, 40);
-            button2.Name = "button2";
-            button2.Padding = new Padding(4, 0, 0, 0);
-            button2.Size = new Size(190, 40);
-            button2.TabIndex = 7;
-            button2.Text = "Check as Bought";
-            button2.TextAlign = ContentAlignment.MiddleRight;
-            button2.TextImageRelation = TextImageRelation.ImageBeforeText;
-            button2.UseVisualStyleBackColor = true;
             // 
             // dataGridViewButtonColumn3
             // 
@@ -634,7 +568,7 @@ namespace Shopping_list_app
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(820, 844);
             Controls.Add(tabControl1);
-            MinimumSize = new Size(842, 0);
+            MinimumSize = new Size(842, 400);
             Name = "ShoppingListForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Shopping List App";
@@ -666,10 +600,6 @@ namespace Shopping_list_app
         private Button delItemBtn;
         private Button addItemBtn;
         private ImageList imageList1;
-        private TableLayoutPanel tableLayoutPanel2;
-        private Button button4;
-        private Button button3;
-        private Button button2;
         private DataGridViewButtonColumn dataGridViewButtonColumn3;
         private DataGridViewButtonColumn dataGridViewButtonColumn2;
         private DataGridViewButtonColumn dataGridViewButtonColumn1;
@@ -680,22 +610,21 @@ namespace Shopping_list_app
         private GroupBox groupBox2;
         private TableLayoutPanel tableLayoutPanel3;
         private Button searchBtnBought;
-        private Button button5;
-        private Button button6;
-        private Button button7;
+        private Button moveBoughtBackBtn;
+        private Button delBoughtBtn;
+        private Button addBoughtBtn;
+        private ToolTip toolTip1;
         private DataGridViewCheckBoxColumn colSelect;
         private DataGridViewTextBoxColumn colIndex;
         private DataGridViewTextBoxColumn colName;
         private DataGridViewTextBoxColumn colQuantity;
         private DataGridViewButtonColumn colBuy;
-        private DataGridViewButtonColumn colEdit;
         private DataGridViewButtonColumn colDelete;
         private DataGridViewCheckBoxColumn colSelectBought;
         private DataGridViewTextBoxColumn colIndexBought;
         private DataGridViewTextBoxColumn colNameBought;
         private DataGridViewTextBoxColumn colQuantityBought;
         private DataGridViewButtonColumn colBuyBought;
-        private DataGridViewButtonColumn colEditBought;
         private DataGridViewButtonColumn colDeleteBought;
     }
 }

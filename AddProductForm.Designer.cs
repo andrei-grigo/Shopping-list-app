@@ -2,13 +2,9 @@
 {
     partial class AddProductForm
     {
+        /// <summary>
         
-        
-        
-        
-        / <summary>
-        
-            / Required designer variable.
+            // Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
@@ -59,7 +55,7 @@
             addQtyLbl.Margin = new Padding(4);
             addQtyLbl.Name = "addQtyLbl";
             addQtyLbl.Size = new Size(84, 25);
-            addQtyLbl.TabIndex = 1;
+            addQtyLbl.TabIndex = 2;
             addQtyLbl.Text = "Quantity:";
             // 
             // txtProductName
@@ -68,7 +64,7 @@
             txtProductName.Margin = new Padding(4);
             txtProductName.Name = "txtProductName";
             txtProductName.Size = new Size(236, 31);
-            txtProductName.TabIndex = 2;
+            txtProductName.TabIndex = 1;
             // 
             // numQuantity
             // 
@@ -119,7 +115,7 @@
             MinimizeBox = false;
             Name = "AddProductForm";
             StartPosition = FormStartPosition.CenterParent;
-            Text = "Form1";
+            Text = "Add a Product";
             ((System.ComponentModel.ISupportInitialize)numQuantity).EndInit();
             ResumeLayout(false);
             PerformLayout();

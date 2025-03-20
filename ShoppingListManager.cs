@@ -104,13 +104,72 @@ namespace Shopping_list_app
                 BoughtList.Add(item);
             }
         }
-        public void DeleteSingleItem(ShoppingItem item)
+        public void DeleteSingleItem(ShoppingItem item, bool showConfirmation = true)
         {
             if (item != null)
             {
-                ToBuyList.Remove(item);
+                if (showConfirmation)
+                {
+                    var result = MessageBox.Show($"Are you sure you want to delete the item '{item.Name}' (Quantity: {item.Quantity}) from the 'To Buy' list?",
+                        "Delete Item", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                    if (result == DialogResult.Yes)
+                    {
+                        ToBuyList.Remove(item);
+                    }
+                }
+                else
+                {
+                    ToBuyList.Remove(item);
+                }
+            }
+        }
+        public void DeleteBoughtItems()
+        {
+            var itemsToRemove = BoughtList.Where(item => item.Select).ToList();
+            foreach (var item in itemsToRemove)
+            {
+                BoughtList.Remove(item);
+            }
+        }
+        public void MoveBoughtBackToBuy()
+        {
+            var itemsToMoveBack = BoughtList.Where(item => item.Select).ToList();
+
+            foreach (var item in itemsToMoveBack)
+            {
+                item.IsBought = false;
+                item.Select = false;
+                BoughtList.Remove(item);
+                ToBuyList.Add(item);
+            }
+        }
+        public void MarkSingleItemAsToBuy(ShoppingItem item)
+        {
+            if (item != null)
+            {
+                item.IsBought = false;
+                item.Select = false;
+                BoughtList.Remove(item);
+                ToBuyList.Add(item);
             }
         }
 
+        public void DeleteSingleItemBought(ShoppingItem item, bool showConfirmation = true)
+        {
+            if (item != null)
+            {
+                if (showConfirmation)
+                {
+                    var result = MessageBox.Show($"Are you sure you want to delete '{item.Name}' (Quantity: {item.Quantity}) from the 'Bought' list?",
+                                                 "Delete Item", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                    if (result == DialogResult.No)
+                    {
+                        return;
+                    }
+                }
+                BoughtList.Remove(item);
+            }
+        }
     }
 }

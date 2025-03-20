@@ -28,9 +28,9 @@ namespace Shopping_list_app
             get => _name;
             set
             {
-                if (_name != value)
+                if (!string.IsNullOrWhiteSpace(value) && _name != value)
                 {
-                    _name = value;
+                    _name = value.Trim();
                     OnPropertyChanged(nameof(Name));
                 }
             }
@@ -41,7 +41,7 @@ namespace Shopping_list_app
             get => _quantity;
             set
             {
-                if (_quantity != value)
+                if (value > 0 && _quantity != value)
                 {
                     _quantity = value;
                     OnPropertyChanged(nameof(Quantity));

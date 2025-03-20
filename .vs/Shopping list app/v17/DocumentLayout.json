@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|c:\\users\\andre\\documents\\cursuri c#\\shopping list app\\shoppinglistform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|solutionrelative:shoppinglistform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|c:\\users\\andre\\documents\\cursuri c#\\shopping list app\\searchform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|solutionrelative:searchform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|c:\\users\\andre\\documents\\cursuri c#\\shopping list app\\addproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|solutionrelative:addproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|c:\\users\\andre\\documents\\cursuri c#\\shopping list app\\addproductform.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|solutionrelative:addproductform.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|c:\\users\\andre\\documents\\cursuri c#\\shopping list app\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|solutionrelative:properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|c:\\users\\andre\\documents\\cursuri c#\\shopping list app\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|solutionrelative:properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|c:\\users\\andre\\documents\\cursuri c#\\shopping list app\\searchform.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|solutionrelative:searchform.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|c:\\users\\andre\\documents\\cursuri c#\\shopping list app\\shoppinglistform.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|solutionrelative:shoppinglistform.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|c:\\users\\andre\\documents\\cursuri c#\\shopping list app\\shoppinglistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|solutionrelative:shoppinglistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|c:\\users\\andre\\documents\\cursuri c#\\shopping list app\\shoppinglistform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|solutionrelative:shoppinglistform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|c:\\users\\andre\\documents\\cursuri c#\\shopping list app\\shoppinglistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|solutionrelative:addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|c:\\users\\andre\\documents\\cursuri c#\\shopping list app\\searchform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|solutionrelative:searchform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|c:\\users\\andre\\documents\\cursuri c#\\shopping list app\\shoppinglistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BD02EAD2-B43D-4ACF-905C-33A893753022}|Shopping list app.csproj|solutionrelative:shoppinglistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -74,215 +42,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ShoppingListForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\ShoppingListForm.Designer.cs",
-              "RelativeDocumentMoniker": "ShoppingListForm.Designer.cs",
-              "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\ShoppingListForm.Designer.cs",
-              "RelativeToolTip": "ShoppingListForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T02:40:34.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Resources.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\Properties\\Resources.Designer.cs",
-              "RelativeDocumentMoniker": "Properties\\Resources.Designer.cs",
-              "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\Properties\\Resources.Designer.cs",
-              "RelativeToolTip": "Properties\\Resources.Designer.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAArwCQAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T02:42:05.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AddProductForm.resx",
-              "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\AddProductForm.resx",
-              "RelativeDocumentMoniker": "AddProductForm.resx",
-              "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\AddProductForm.resx",
-              "RelativeToolTip": "AddProductForm.resx",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwD4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-03-19T02:42:04.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddProductForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\AddProductForm.Designer.cs",
-              "RelativeDocumentMoniker": "AddProductForm.Designer.cs",
-              "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\AddProductForm.Designer.cs",
-              "RelativeToolTip": "AddProductForm.Designer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAvwB0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T02:12:42.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SearchForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\SearchForm.Designer.cs",
-              "RelativeDocumentMoniker": "SearchForm.Designer.cs",
-              "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\SearchForm.Designer.cs",
-              "RelativeToolTip": "SearchForm.Designer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAvwBsAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:22:44.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "Properties\\Resources.resx",
-              "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\Properties\\Resources.resx",
-              "RelativeToolTip": "Properties\\Resources.resx",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwEEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-03-19T02:42:13.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SearchForm.resx",
-              "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\SearchForm.resx",
-              "RelativeDocumentMoniker": "SearchForm.resx",
-              "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\SearchForm.resx",
-              "RelativeToolTip": "SearchForm.resx",
-              "ViewState": "AgIAADMAAAAAAAAAAAAQwD0AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-03-19T02:42:16.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ShoppingListForm.resx",
-              "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\ShoppingListForm.resx",
-              "RelativeDocumentMoniker": "ShoppingListForm.resx",
-              "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\ShoppingListForm.resx",
-              "RelativeToolTip": "ShoppingListForm.resx",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwD0AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-03-19T02:42:16.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ShoppingListManager.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\ShoppingListManager.cs",
-              "RelativeDocumentMoniker": "ShoppingListManager.cs",
-              "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\ShoppingListManager.cs",
-              "RelativeToolTip": "ShoppingListManager.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAIwHMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:47:43.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ShoppingListForm.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\ShoppingListForm.cs",
-              "RelativeDocumentMoniker": "ShoppingListForm.cs",
-              "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\ShoppingListForm.cs",
-              "RelativeToolTip": "ShoppingListForm.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAcwGcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:17:54.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "ShoppingItem.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\ShoppingItem.cs",
               "RelativeDocumentMoniker": "ShoppingItem.cs",
               "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\ShoppingItem.cs",
               "RelativeToolTip": "ShoppingItem.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAkwAoAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAADwv0IAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:17:34.616Z",
+              "WhenOpened": "2025-03-20T04:11:50.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "SearchForm.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\SearchForm.cs",
               "RelativeDocumentMoniker": "SearchForm.cs",
               "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\SearchForm.cs",
               "RelativeToolTip": "SearchForm.cs",
-              "ViewState": "AgIAAMwAAAAAAAAAAAAuwNcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAMQAAAAAAAAAAADwv84AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:16:01.31Z",
+              "WhenOpened": "2025-03-20T04:09:17.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
+              "Title": "ShoppingListForm.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\ShoppingListForm.cs",
+              "RelativeDocumentMoniker": "ShoppingListForm.cs",
+              "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\ShoppingListForm.cs",
+              "RelativeToolTip": "ShoppingListForm.cs",
+              "ViewState": "AgIAABYBAAAAAAAAAAAwwDIBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T02:35:08.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShoppingListForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\ShoppingListForm.Designer.cs",
+              "RelativeDocumentMoniker": "ShoppingListForm.Designer.cs",
+              "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\ShoppingListForm.Designer.cs",
+              "RelativeToolTip": "ShoppingListForm.Designer.cs",
+              "ViewState": "AgIAAGECAAAAAAAAAAAUwHUCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T02:44:35.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShoppingListManager.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\ShoppingListManager.cs",
+              "RelativeDocumentMoniker": "ShoppingListManager.cs",
+              "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\ShoppingListManager.cs",
+              "RelativeToolTip": "ShoppingListManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T02:45:50.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AddProductForm.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\AddProductForm.cs",
               "RelativeDocumentMoniker": "AddProductForm.cs",
               "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\AddProductForm.cs",
               "RelativeToolTip": "AddProductForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAUwGcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T02:13:23.254Z",
+              "WhenOpened": "2025-03-20T02:59:45.129Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "AddProductForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\AddProductForm.cs",
               "RelativeDocumentMoniker": "AddProductForm.cs",
               "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\AddProductForm.cs [Design]",
               "RelativeToolTip": "AddProductForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T01:57:58.575Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SearchForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\SearchForm.cs",
-              "RelativeDocumentMoniker": "SearchForm.cs",
-              "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\SearchForm.cs [Design]",
-              "RelativeToolTip": "SearchForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:44:12.746Z",
+              "WhenOpened": "2025-03-20T04:10:38.655Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 7,
               "Title": "ShoppingListForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\ShoppingListForm.cs",
               "RelativeDocumentMoniker": "ShoppingListForm.cs",
               "ToolTip": "C:\\Users\\andre\\Documents\\cursuri C#\\Shopping list app\\ShoppingListForm.cs [Design]",
               "RelativeToolTip": "ShoppingListForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:47:31.998Z",
+              "WhenOpened": "2025-03-20T02:30:56.809Z",
               "EditorCaption": " [Design]"
             }
           ]
